@@ -1,0 +1,60 @@
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+.container, .row {
+  height: 100vh;
+  background-color: #aecad4;
+}
+
+.uploadIcon {
+  background-image: url("./upload_icon.svg");
+  float: left;
+  height: 22px;
+  width: 24px;
+}
+
+.color {
+  margin: 5vh 0px 5vh 0px;
+}
+
+.color button {
+  border-radius: 50%;
+  padding: 10px;
+  margin: 5px;
+}
+
+.yellow {
+  background-color: #fed145;
+  border: 3px solid #ebbb2d;
+}
+
+.blue {
+  background-color: #2ab1e4;
+  border: 3px solid #188db8;
+}
+
+.pink {
+  background-color: #d9338b;
+  border: 3px solid #cc0c72;
+}
+
+.umbrellaImg {
+  max-width: 500px;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+
+.uploadBtn {
+  width: 100%;
+  background-color: #2ab1e4;
+  color: #fff;
+  border: none;
+  padding: 10px;
+}
+
+.over {
+  position: absolute;
+  left: 13.5vw;
+  top: 48vh;
+  z-index: 1;
+}
